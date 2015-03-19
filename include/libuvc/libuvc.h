@@ -72,6 +72,13 @@ enum uvc_frame_format {
   UVC_FRAME_FORMAT_BY8,
   /** Number of formats understood */
   UVC_FRAME_FORMAT_COUNT,
+
+  UVC_FRAME_FORMAT_INVZ,
+  UVC_FRAME_FORMAT_INZI,
+  UVC_FRAME_FORMAT_INVR,
+  UVC_FRAME_FORMAT_INRI,
+  UVC_FRAME_FORMAT_INVI,
+  UVC_FRAME_FORMAT_RELI,
 };
 
 /* UVC_COLOR_FORMAT_* have been replaced with UVC_FRAME_FORMAT_*. Please use
